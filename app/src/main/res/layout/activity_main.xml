@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vote Results"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"></TextView>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidate One"
+        android:layout_marginRight="20dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/c1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"></EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Candidate One"
+            android:layout_marginRight="20dp"></TextView>
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"></EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Candidate One"
+            android:layout_marginRight="20dp"></TextView>
+        <EditText
+            android:id="@+id/c3"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"></EditText>
+    </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:text="Start Voting"
+    android:onClick="vote">
+
+</Button>
+</LinearLayout>
